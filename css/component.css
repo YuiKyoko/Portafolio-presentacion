@@ -1,18 +1,5 @@
 /* Header */
-.large-header {
-	position: relative;
-	width: 100%;
-	background: #333;
-	overflow: hidden;
-	background-size: cover;
-	background-position: center center;
-	z-index: 1;
-}
-.conteiner .demo-1{
-	background-size: cover;
-	background-repeat: no-repeat;
-	padding: 15% 10%;
-}
+
 .demo-1 .large-header {
 	background-image: url(http://www.dk-print.ru/load/Gallery/original/nzk1odg0njg3mdax.jpg);
 }
@@ -39,7 +26,7 @@
 	font-weight: 200;
 }
 
-@media only screen and (max-width : 768px) {
+@media only screen and (max-width : 1300px) {
 	.demo-1 .main-title{
 		font-size: 3em;
 	}
