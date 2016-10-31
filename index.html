@@ -2,7 +2,6 @@
 <html>
 	<head>
 		<meta charset="UTF-8" />
-		<meta http-equiv="X-UA-Compatible" content="IE=edge"> 
 		<title>Animated Background Headers | Demo 1</title>
 		<link rel="stylesheet" type="text/css" href="css/bootstrap.css">
 		<link rel="stylesheet" type="text/css" href="css/component.css">		
@@ -10,16 +9,36 @@
 
 	</head>
 	<body>
+		<header>
 		<div class="demo-1">
 			<div class="content">
 				<div id="large-header" class="large-header">
 					<canvas id="demo-canvas"></canvas>
 					<h1 class="main-title">SOY KIMBERLY ESQUIVEL</h1>
+					<div class="container">
+						<!-- Top Navigation -->
+						<div class="wrap clearfix">
+							<div class="dotstyle dotstyle-dotmove">
+								<ul>
+									<li class="current"><a href="#">Home</a></li>
+									<li><a href="#">About</a></li>
+									<li><a href="#">Products</a></li>
+									<li><a href="#">Portfolio</a></li>
+									<li><a href="#">Blog</a></li>
+									<li><a href="#">Contact</a></li>
+									<li><!-- dummy dot --></li>
+								</ul>
+							</div>
+						</div>
+					</div>
 				</div>
 			</div>
 		</div>
+		
+		</header>
+		
 		<!--sobre mi-->	
-		<section class="bg-portafolio" >
+		<section class="sobreMi" >
 			<div class="container">
 				<div class="col-xs-6">
 					<img src="img/1.jpg" class="img">
@@ -27,59 +46,83 @@
 				<div id="sobremi" class="text-center col-xs-6">
 					<h2 class="text-white">SOBRE MÍ</h2>
 					<div class="line-white"></div>
-					<div class="text-opacity">Soy egresada de Laboratoria salí con el título de Fronted Developer Jr. desarrollo páginas web HTML/ CSS/ Javascript. Soy creativa, inteligente y alegre cosa que transmito en cada una de las web que desarrollo.</div>
+					<div class="text-opacity">Lorem Ipsum es simplemente el texto de relleno de las imprentas y archivos de texto. Lorem Ipsum ha sido el texto de relleno estándar de las industrias desde el año 1500, cuando un impresor (N. del T. persona que se dedica a la imprenta) desconocido usó una galería de textos y los mezcló de tal manera que logró hacer un libro de textos especimen. No sólo sobrevivió 500 años, sino que tambien ingresó como texto de relleno en documentos electrónicos, quedando esencialmente igual al original. Fue popularizado en los 60s con la creación de las hojas "Letraset", las cuales contenian pasajes de Lorem Ipsum, y más recientemente con software de autoedición, como por ejemplo Aldus PageMaker, el cual incluye versiones de Lorem Ipsum.
+
+					¿Por qué lo usamos?
+					Es un hecho establecido hace demasiado tiempo que un lector se distraerá con el contenido del texto de un sitio mientras que mira su diseño. El punto de usar Lorem Ipsum es que tiene una distribución más o menos normal de las letras, al contrario de usar textos como por ejemplo "Contenido aquí, contenido aquí". Estos textos hacen parecerlo un español que se puede leer. Muchos paquetes de autoedición y editores de páginas web usan el Lorem Ipsum como su texto por defecto, y al hacer una búsqueda de "Lorem Ipsum" va a dar</div>
 				</div>
 			</div>
+		</section>
+		<section class="clase">
+		    <div class="canvas">
+		        <canvas  id="html" width="200" height="200" ></canvas>
+		        <h3>HTML</h3>
+		    </div>
+		    <div class="canvas">
+		        <canvas id="js" width="200" height="200"></canvas>
+		        <h3>Javascript</h3>
+		    </div>
+		    <div class="canvas">
+		        <canvas id="css" width="200" height="200"></canvas>
+		        <h3>Css</h3>
+		    </div>
+		    <div class="canvas">
+		        <canvas id="jquery" width="200" height="200"></canvas>
+		        <h3>Jquery</h3>
+		    </div>
 		</section>
 		<section id="proyecto" class="proyecto text-center bg-black">
 				<div class="conteiner-fluid">
 					<div class="row">
-						<div class="col-md-2 overlay no-p">
+						<div class="col-md-4 overlay tamano">
 							<img src="img/1.png" class="img">
 							<div class="newcategory">
-								<h4>CATEGORÍA</h4>
-								<h3>Nombre proyecto</h3>
+								<h4>Javascript</h4>
+								<h3>Bitacora Indie</h3>
 							</div>
 						</div>
-						<div class="col-md-2 overlay no-p">
+						<div class="col-md-4 overlay tamano">
 							<img src="img/2.png" class="img">
 							<div class="newcategory">
-								<h4>CATEGORÍA</h4>
-								<h3>Nombre proyecto</h3>
+								<h4>Javascript</h4>
+								<h3>Trello</h3>
 							</div>
 						</div>
-						<div class="col-md-2 overlay no-p">
+						<div class="col-md-4 overlay tamano">
 							<img src="img/3.png" class="img">
 							<div class="newcategory">
-								<h4>CATEGORÍA</h4>
-								<h3>Nombre proyecto</h3>
+								<h4>Javascript</h4>
+								<h3>Twiter</h3>
 							</div>
 						</div>
-						<div class="col-md-2 overlay no-p">
+					</div>
+					<div class="row">
+						<div class="col-md-4 overlay tamano">
 							<img src="img/4.png" class="img">
 							<div class="newcategory">
-								<h4>CATEGORÍA</h4>
-								<h3>Nombre proyecto</h3>
+								<h4>Javascript</h4>
+								<h3>Js for Dummies</h3>
 							</div>
 						</div>
-						<div class="col-md-2 overlay no-p">
+						<div class="col-md-4 overlay tamano">
 							<img src="img/5.png" class="img">
 							<div class="newcategory">
-								<h4>CATEGORÍA</h4>
-								<h3>Nombre proyecto</h3>
+								<h4>Html-Css</h4>
+								<h3>Flatness</h3>
 							</div>
 						</div>
-						<div class="col-md-2 overlay no-p">
+						<div class="col-md-4 overlay tamano">
 							<img src="img/6.png" class="img">
 							<div class="newcategory">
-								<h4>CATEGORÍA</h4>
-								<h3>Nombre proyecto</h3>
+								<h4>Boostrap-Html</h4>
+								<h3>La Republica</h3>
 							</div>
 						</div>
 					</div>
 					<div class="github Text-white">
-							<h3>Si quieres saber saber más de mi proyecto revisa mi github</h3>
-							<button type="button" class="gitboton btn btn-lg btn-default git"><strong>VER MI GITHUB</strong></button>
+						<h3>Si quieres saber saber más de mis proyecto revisa mi github</h3>
+						<a href="https://github.com/YuiKyoko"><button type="button" class="gitboton btn btn-lg btn-default git"><strong>VER MI GITHUB</strong></button></a>
+						
 					</div>
 		</section>
 		<footer id="contactanos">
@@ -101,8 +144,7 @@
 					</div>
 				</div>
 		</footer>
-
-		<script type="text/javascript" src="js/jquery.min.js"></script>
+		<script src="js/main.js"></script>
 		<script type="text/javascript" src="js/bootstrap.js"></script>	
 		<script src="js/TweenLite.min.js"></script>
 		<script src="js/EasePack.min.js"></script>

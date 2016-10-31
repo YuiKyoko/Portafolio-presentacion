@@ -23,10 +23,10 @@
 
 
 .main-title .thin {
-	font-weight: 200;
+	font-weight: 100;
 }
 
-@media only screen and (max-width : 1300px) {
+@media only screen and (max-width : 1024px) {
 	.demo-1 .main-title{
 		font-size: 3em;
 	}
